@@ -103,6 +103,17 @@ header button:hover{
     margin-bottom: 32px;
 
 }
+
+
+.box-1:hover{
+    background-color: rgb(75, 187, 150);
+}
+.box-2:hover{
+    background-color: rgb(15, 180, 125);
+}
+.box-3:hover{
+    background-color: rgb(110, 186, 216);
+}
 .box-1{
     background-color: rgb(84, 144, 245,20%);
     border-radius: 15px;
