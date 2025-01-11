@@ -4,7 +4,11 @@
     font-family: "Fira Sans", serif;
     font-weight: 500;
     font-style: normal;
+
   
+}
+body{
+    background-color: rgb(241, 241, 243);
 }
 header{
     display: flex;
@@ -65,3 +69,141 @@ header button:hover{
     background-color: aliceblue;
 }
 
+
+
+
+
+
+
+
+
+/* The Vision of Future */
+
+.The-Vision-of-Future{
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 80px;
+}
+.The-Vision-of-Future h1{
+    font-size: 36px;
+}
+.The-Vision-of-Future p{
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 21px;
+    opacity: .7;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    gap: 21px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+
+}
+.box-1{
+    background-color: rgb(84, 144, 245,20%);
+    border-radius: 15px;
+    height: 260px;
+    width: 350px;
+    padding: 32px;
+
+}
+.box-1 h1{
+    font-size: 18px;
+    margin-top: 21px;
+
+}
+.box-1 p{
+    font-size: 15px;
+    opacity: .7;
+
+}
+.box-1 button{
+    font-size: 15px;
+    padding: 10px 19px;
+    background-color: rgb(84, 144, 245,100%);
+    color: aliceblue;
+    border: none;
+    border-radius: 7px;
+    margin-top: 28px;
+}
+
+
+.box-2{
+    background-color: rgb(198,228,214,100%);
+    border-radius: 15px;
+    height: 260px;
+    width: 350px;
+    padding: 32px;
+
+}
+.box-2 h1{
+    font-size: 18px;
+    margin-top: 21px;
+
+}
+.box-2 p{
+    font-size: 15px;
+    opacity: .7;
+
+}
+.box-2 button{
+    font-size: 15px;
+    padding: 10px 19px;
+    background-color: rgb(9,161,92,100%);
+    color: aliceblue;
+    border: none;
+    border-radius: 7px;
+    margin-top: 28px;
+}
+
+
+
+.box-3{
+    background-color: rgb(247,235,207,100%);
+    border-radius: 15px;
+    height: 260px;
+    width: 350px;
+    padding: 32px;
+
+}
+.box-3 h1{
+    font-size: 18px;
+    margin-top: 21px;
+
+}
+.box-3 p{
+    font-size: 15px;
+    opacity: .7;
+
+}
+.box-3 button{
+    font-size: 15px;
+    padding: 10px 19px;
+    background-color: rgb(255, 194, 57,100%);
+    color: aliceblue;
+    border: none;
+    border-radius: 7px;
+    margin-top: 28px;
+}
+
+.blockqoute p{
+    font-size: 15px;
+    opacity: .7;
+}
+.blockqoute{
+    background-image:url(B11A1--assignment-1/assets/quote-bg.png);
+    background-color: white;
+    background-repeat:no-repeat;
+    padding:24px 48px;
+    border: 1px solid beige;
+    background-position: 30px 30px;
+    border-radius: 12px;
+}
+.blockqoute h1{
+    font-size: 18px;
+    margin-top: 21px;
+    
+}
