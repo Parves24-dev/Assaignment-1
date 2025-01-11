@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+  
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 160px;
+    padding-left: 160px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+header button{
+    color:rgb(0, 106,80,100%);
+    background-color: transparent;
+    border: 1px solid rgb(0, 106,80,100%);
+    padding:15px 30px ;
+    border-radius: 8px;
+}
+header button:hover{
+    background-color: brown;
+    color: aqua;
+    border-color: brown;
+}
