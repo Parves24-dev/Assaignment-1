@@ -130,6 +130,10 @@ header button:hover{
     border-radius: 7px;
     margin-top: 28px;
 }
+.box-1 button:hover{
+    background-color: yellowgreen;
+    color: black;
+}
 
 
 .box-2{
@@ -160,7 +164,10 @@ header button:hover{
     margin-top: 28px;
 }
 
-
+.box-2 button:hover{
+    background-color: crimson;
+    color: black;
+}
 
 .box-3{
     background-color: rgb(247,235,207,100%);
@@ -189,6 +196,12 @@ header button:hover{
     border-radius: 7px;
     margin-top: 28px;
 }
+
+.box-3 button:hover{
+    background-color: lightgreen;
+    color: black;
+}
+
 
 .blockqoute p{
     font-size: 15px;
@@ -252,6 +265,11 @@ header button:hover{
     margin-top:28px;
 }
 
+.news-1 button:hover{
+    background-color: goldenrod;
+    color: black;
+}
+
 
 .Recent-news .news-2{
     display: flex;
@@ -275,6 +293,11 @@ header button:hover{
     color: aliceblue;
     border-radius: 8px;
     margin-top:28px;
+}
+
+.news-2 button:hover{
+    background-color: goldenrod;
+    color: black;
 }
 
 
@@ -319,6 +342,10 @@ header button:hover{
     border-radius: 13px;
 }
 
+.amount-1:hover{
+    background-color: aquamarine;
+}
+
 .amount-2{
     display: flex;
     justify-content: center;
@@ -327,6 +354,9 @@ header button:hover{
     width:224px;
     background-color:rgb(198, 228, 214,100%);
     border-radius: 13px;
+}
+.amount-2:hover{
+    background-color: aquamarine;
 }
 
 .amount-3{
@@ -339,6 +369,10 @@ header button:hover{
     border-radius: 13px;
 }
 
+.amount-3:hover{
+    background-color: aquamarine;
+}
+
 .amount-4{
     display: flex;
     justify-content: center;
@@ -347,6 +381,10 @@ header button:hover{
     width:224px;
     background-color: white;
     border-radius: 13px;
+}
+
+.amount-4:hover{
+    background-color: aquamarine;
 }
 
 .donate input{
@@ -368,4 +406,8 @@ text-align: center;
     color: aliceblue;
     border-radius: 8px;
     margin-top:28px;
+}
+.donate button:hover{
+    background-color: rgb(64, 216, 18);
+    color: black;
 }
