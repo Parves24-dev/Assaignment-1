@@ -48,6 +48,7 @@ header button:hover{
 .benner .text-one{
     font-size: 24px;
     color: rgb(14,14,14,50%);
+    margin-top: 45px;
 }
 .benner .text-two{
     font-size:44px;
@@ -268,6 +269,99 @@ header button:hover{
     width: 365px;
 }
 .news-2 button{
+    background-color: rgb(0, 106,80,100%);
+    padding: 12px 24px ;
+    border: none;
+    color: aliceblue;
+    border-radius: 8px;
+    margin-top:28px;
+}
+
+
+/* donate today */
+
+.donate h1{
+    font-size: 36px;
+    text-align: center;
+}
+.donate{
+    margin-left: 140px;
+    margin-right:140px;
+    margin-top: 80px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.donate p{
+    text-align: center;
+    font-size: 15px;
+    opacity: .7;
+    font-weight: 400;
+    margin-top: 21px
+}
+
+.amount{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 21px;
+    margin-top: 30px;
+}
+
+.amount-1{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height:108px;
+    width:224px;
+    background-color: white;
+    border-radius: 13px;
+}
+
+.amount-2{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height:108px;
+    width:224px;
+    background-color:rgb(198, 228, 214,100%);
+    border-radius: 13px;
+}
+
+.amount-3{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height:108px;
+    width:224px;
+    background-color: white;
+    border-radius: 13px;
+}
+
+.amount-4{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height:108px;
+    width:224px;
+    background-color: white;
+    border-radius: 13px;
+}
+
+.donate input{
+    height: 58px;
+    width: 910px;
+    margin-top: 30px;
+    
+}
+
+.donate input::placeholder{
+text-align: center;
+    font-size: 18px;
+}
+
+.donate button{
     background-color: rgb(0, 106,80,100%);
     padding: 12px 24px ;
     border: none;
